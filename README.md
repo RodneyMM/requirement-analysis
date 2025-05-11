@@ -50,5 +50,26 @@ Finally, the documented and analyzed requirements are reviewed and verified with
 
 ## Types of Requirements
 
-### Functional Requirements
-### Non-Functional Requirements
+### ✅ Functional Requirements
+
+Functional requirements define what the system should do—the specific features, actions, or tasks it must perform to meet user needs.
+
+Examples for the Booking Management System:
+	•	Users must be able to search for hotels based on location, date, and price range.
+	•	The system should allow hotel managers to update room availability and pricing through a dedicated portal.
+	•	Customers should be able to make bookings and receive instant confirmation.
+	•	The system must integrate with third-party payment gateways to process transactions securely.
+	•	The platform must send real-time notifications to hotel managers upon successful bookings.
+	•	Users should be able to view and cancel past or upcoming bookings.
+
+### ⚙️ Non-functional Requirements
+
+Non-functional requirements define how the system performs certain functions. These include performance, scalability, usability, and security expectations.
+
+Examples for the Booking Management System:
+	•	The system should handle high concurrent user traffic efficiently using microservice architecture.
+	•	API response times should be less than 2 seconds for search and booking operations.
+	•	The application must be highly available and fault-tolerant, even under heavy load.
+	•	All user data must be secured through encryption and secure authentication mechanisms.
+	•	The system should support data replication and database sharding for better performance.
+	•	Booking history and logs must be archived and retrievable for at least 1 year using scalable storage like Cassandra and Hadoop.
