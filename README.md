@@ -55,24 +55,24 @@ Finally, the documented and analyzed requirements are reviewed and verified with
 Functional requirements define what the system should do—the specific features, actions, or tasks it must perform to meet user needs.
 
 Examples for the Booking Management System:
-	•	Users must be able to search for hotels based on location, date, and price range.
-	•	The system should allow hotel managers to update room availability and pricing through a dedicated portal.
-	•	Customers should be able to make bookings and receive instant confirmation.
-	•	The system must integrate with third-party payment gateways to process transactions securely.
-	•	The platform must send real-time notifications to hotel managers upon successful bookings.
-	•	Users should be able to view and cancel past or upcoming bookings.
+- Users must be able to search for hotels based on location, date, and price range.
+- The system should allow hotel managers to update room availability and pricing through a dedicated portal.
+- Customers should be able to make bookings and receive instant confirmation.
+- The system must integrate with third-party payment gateways to process transactions securely.
+- The platform must send real-time notifications to hotel managers upon successful bookings.
+- Users should be able to view and cancel past or upcoming bookings.
 
 ### ⚙️ Non-functional Requirements
 
 Non-functional requirements define how the system performs certain functions. These include performance, scalability, usability, and security expectations.
 
 Examples for the Booking Management System:
-	•	The system should handle high concurrent user traffic efficiently using microservice architecture.
-	•	API response times should be less than 2 seconds for search and booking operations.
-	•	The application must be highly available and fault-tolerant, even under heavy load.
-	•	All user data must be secured through encryption and secure authentication mechanisms.
-	•	The system should support data replication and database sharding for better performance.
-	•	Booking history and logs must be archived and retrievable for at least 1 year using scalable storage like Cassandra and Hadoop.
+- The system should handle high concurrent user traffic efficiently using microservice architecture.
+- API response times should be less than 2 seconds for search and booking operations.
+- The application must be highly available and fault-tolerant, even under heavy load.
+- All user data must be secured through encryption and secure authentication mechanisms.
+- The system should support data replication and database sharding for better performance.
+- Booking history and logs must be archived and retrievable for at least 1 year using scalable storage like Cassandra and Hadoop.
 
 
  ## Use Case Diagrams
@@ -80,10 +80,10 @@ Examples for the Booking Management System:
  Use Case Diagrams are a part of Unified Modeling Language (UML) used to visually represent the functional behavior of a system. They show how different actors (users or other systems) interact with various use cases (system functionalities). This helps stakeholders and developers understand the system’s scope, required functionality, and user interactions at a high level.
 
 🔍 Benefits of Use Case Diagrams
-	•	Provide a clear overview of system functionality from the user’s perspective
-	•	Help identify user roles and responsibilities
-	•	Facilitate communication between technical and non-technical stakeholders
-	•	Serve as a foundation for writing functional requirements and user stories
+- Provide a clear overview of system functionality from the user’s perspective
+- Help identify user roles and responsibilities
+- Facilitate communication between technical and non-technical stakeholders
+- Serve as a foundation for writing functional requirements and user stories
 
  
 ![alx-booking-uc](https://github.com/user-attachments/assets/0f6a2647-ad28-430f-8641-3284ea86c2c4)
@@ -95,10 +95,10 @@ Examples for the Booking Management System:
 Acceptance Criteria define the specific conditions that a product or feature must meet to be accepted by stakeholders, clients, or end users. They serve as a bridge between requirements and testing, ensuring clarity of expectations for developers, testers, and product owners. Acceptance Criteria help avoid ambiguity, guide development, and form the basis for user story validation and test case creation.
 
 Clear Acceptance Criteria:
-	•	Ensure all team members have a shared understanding of feature requirements
-	•	Act as a checklist to confirm when a feature is complete and working correctly
-	•	Improve communication between stakeholders and development teams
-	•	Reduce the chances of scope creep and rework
+- Ensure all team members have a shared understanding of feature requirements
+- Act as a checklist to confirm when a feature is complete and working correctly
+- Improve communication between stakeholders and development teams
+- Reduce the chances of scope creep and rework
 
 
 Example: Checkout Feature (Booking Management System)
@@ -107,9 +107,9 @@ User Story:
 As a customer, I want to be able to complete a hotel booking by making a payment so that I can confirm my reservation.
 
 Acceptance Criteria:
-	•	The system must allow customers to choose from available payment methods (e.g., credit card, PayPal).
-	•	The payment process must be secure and compliant with industry standards (e.g., PCI-DSS).
-	•	Upon successful payment, the booking must be confirmed and a confirmation message displayed.
-	•	The user must receive an email with the booking summary and receipt after checkout.
-	•	In case of payment failure, an appropriate error message must be shown with retry options.
-	•	The checkout page must be accessible on both web and mobile platforms.
+- The system must allow customers to choose from available payment methods (e.g., credit card, PayPal).
+- The payment process must be secure and compliant with industry standards (e.g., PCI-DSS).
+- Upon successful payment, the booking must be confirmed and a confirmation message displayed.
+- The user must receive an email with the booking summary and receipt after checkout.
+- In case of payment failure, an appropriate error message must be shown with retry options.
+- The checkout page must be accessible on both web and mobile platforms.
