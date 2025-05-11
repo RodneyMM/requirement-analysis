@@ -73,3 +73,17 @@ Examples for the Booking Management System:
 	•	All user data must be secured through encryption and secure authentication mechanisms.
 	•	The system should support data replication and database sharding for better performance.
 	•	Booking history and logs must be archived and retrievable for at least 1 year using scalable storage like Cassandra and Hadoop.
+
+
+ ## Use Case Diagrams
+
+ Use Case Diagrams are a part of Unified Modeling Language (UML) used to visually represent the functional behavior of a system. They show how different actors (users or other systems) interact with various use cases (system functionalities). This helps stakeholders and developers understand the system’s scope, required functionality, and user interactions at a high level.
+
+🔍 Benefits of Use Case Diagrams
+	•	Provide a clear overview of system functionality from the user’s perspective
+	•	Help identify user roles and responsibilities
+	•	Facilitate communication between technical and non-technical stakeholders
+	•	Serve as a foundation for writing functional requirements and user stories
+
+ 
+![alx-booking-uc](https://github.com/user-attachments/assets/0f6a2647-ad28-430f-8641-3284ea86c2c4)
