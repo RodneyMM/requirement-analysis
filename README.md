@@ -87,3 +87,29 @@ Examples for the Booking Management System:
 
  
 ![alx-booking-uc](https://github.com/user-attachments/assets/0f6a2647-ad28-430f-8641-3284ea86c2c4)
+
+## Acceptance Criteria
+
+### Importance of Acceptance Criteria in Requirement Analysis
+
+Acceptance Criteria define the specific conditions that a product or feature must meet to be accepted by stakeholders, clients, or end users. They serve as a bridge between requirements and testing, ensuring clarity of expectations for developers, testers, and product owners. Acceptance Criteria help avoid ambiguity, guide development, and form the basis for user story validation and test case creation.
+
+Clear Acceptance Criteria:
+	•	Ensure all team members have a shared understanding of feature requirements
+	•	Act as a checklist to confirm when a feature is complete and working correctly
+	•	Improve communication between stakeholders and development teams
+	•	Reduce the chances of scope creep and rework
+
+
+Example: Checkout Feature (Booking Management System)
+
+User Story:
+As a customer, I want to be able to complete a hotel booking by making a payment so that I can confirm my reservation.
+
+Acceptance Criteria:
+	•	The system must allow customers to choose from available payment methods (e.g., credit card, PayPal).
+	•	The payment process must be secure and compliant with industry standards (e.g., PCI-DSS).
+	•	Upon successful payment, the booking must be confirmed and a confirmation message displayed.
+	•	The user must receive an email with the booking summary and receipt after checkout.
+	•	In case of payment failure, an appropriate error message must be shown with retry options.
+	•	The checkout page must be accessible on both web and mobile platforms.
